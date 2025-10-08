@@ -25,4 +25,9 @@ Usage : Objects --> External Dynamic Lists --> Add --> Type: IP List --> Source:
 Usage : Firewall --> Source Adress List : **https://raw.githubusercontent.com/securewanltd/cti-feed/refs/heads/main/black-list.txt**
 
 
-Note: If you have too many problems using "black-list.txt", we recommend you to use "black-list-level5.txt" list.
+## **Note:**
+If you have too many problems using "black-list.txt", we recommend you to use "black-list-level5.txt" list.
+
+## **LICENSE:**
+This code is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License.
+See https://creativecommons.org/licenses/by-nc/4.0/ for full license details.
