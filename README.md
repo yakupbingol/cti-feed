@@ -13,6 +13,8 @@ This list contains malicious IP addresses. IP addresses are collected from vario
 ## **Usage:**
 
 ### ONLY FORTIGATE
+Fortigate Firewall can dynamically allocate 131,072 IP addresses. We've divided the list into separate systems for Fortigate. In the scenario above, you can exceed this limit by adding multiple Threat Feeds.
+
 Usage : Security Fabric --> External connectors --> Create New --> Threat Feeds --> IP Address --> URI of external resource: **https://raw.githubusercontent.com/securewanltd/cti-feed/refs/heads/main/black-list-part1.txt**
 Usage - 2 : Security Fabric --> External connectors --> Create New --> Threat Feeds --> IP Address --> URI of external resource: **https://raw.githubusercontent.com/securewanltd/cti-feed/refs/heads/main/black-list-part2.txt**
 
@@ -23,4 +25,4 @@ Usage : Objects --> External Dynamic Lists --> Add --> Type: IP List --> Source:
 Usage : Firewall --> Source Adress List : **https://raw.githubusercontent.com/securewanltd/cti-feed/refs/heads/main/black-list.txt**
 
 
-Note: If you have too many problems using "black-list.txt", we recommend you to use "black-list-level5.txt" list. Fortigate Firewall can dynamically allocate 131,072 IP addresses. We've divided the list into separate systems for Fortigate. In the scenario above, you can exceed this limit by adding multiple Threat Feeds.
+Note: If you have too many problems using "black-list.txt", we recommend you to use "black-list-level5.txt" list.
