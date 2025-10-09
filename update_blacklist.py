@@ -104,23 +104,40 @@ def collect_ips(urls: list) -> tuple[set, dict]:
 def save_ips(ips: set, base_filename: str, chunk_size: int = 130000):
     ips_sorted = sorted(ips)
     total = len(ips_sorted)
-    
+
     if total <= chunk_size:
+        # Tek dosya yeterli
         with open(base_filename, "w", encoding="utf-8") as f:
             for ip in ips_sorted:
                 f.write(ip + "\n")
         print(f"[+] Saved IPs: {base_filename} ({total})")
     else:
+        # Parçalara böl ve kaydet
         parts = (total // chunk_size) + (1 if total % chunk_size else 0)
+        filenames = []
+
         for i in range(parts):
             start = i * chunk_size
             end = start + chunk_size
             part_ips = ips_sorted[start:end]
+
+            # "black-list-level1.txt" → "black-list" → "black"
             filename = f"{base_filename.rsplit('.',1)[0]}-part{i+1}.txt"
+            filenames.append(filename)
+
             with open(filename, "w", encoding="utf-8") as f:
                 for ip in part_ips:
                     f.write(ip + "\n")
             print(f"[+] Saved IPs: {filename} ({len(part_ips)})")
+
+        # Parçaları birleştir
+        with open(base_filename, "w", encoding="utf-8") as merged:
+            for file in filenames:
+                with open(file, "r", encoding="utf-8") as f:
+                    merged.write(f.read())
+        print(f"[+] Combined file created: {base_filename} ({total})")
+
+
 
 def save_level_files(ip_sources: dict):
     files = {
@@ -158,8 +175,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
 
 
 
