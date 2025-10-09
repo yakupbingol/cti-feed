@@ -25,7 +25,7 @@ URLS = [
     "https://raw.githubusercontent.com/stamparm/ipsum/master/levels/7.txt",
     "https://raw.githubusercontent.com/stamparm/ipsum/master/levels/8.txt",
     "https://raw.githubusercontent.com/securewanltd/cti-feed/refs/heads/main/siem-black-list.txt",
-    "https://raw.githubusercontent.com/borestad/blocklist-abuseipdb/refs/heads/main/abuseipdb-s100-30d.ipv4"
+    "https://raw.githubusercontent.com/borestad/blocklist-abuseipdb/refs/heads/main/abuseipdb-s100-30d.ipv4",
     "https://lists.blocklist.de/lists/all.txt",
     "https://cinsscore.com/list/ci-badguys.txt",
     "https://www.spamhaus.org/drop/drop.txt",
@@ -158,6 +158,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
