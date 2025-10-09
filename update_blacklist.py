@@ -52,7 +52,7 @@ URLS = [
     "https://raw.githubusercontent.com/romainmarcoux/malicious-outgoing-ip/refs/heads/main/sources/viriback.com-aa.txt",
 ]
 
-OUTPUT_FILE = "black-list-level1.txt"
+OUTPUT_FILE = "black-list.txt"
 REQUEST_TIMEOUT = 20
 SLEEP_BETWEEN = 0.5
 USER_AGENT = "Mozilla/5.0 (compatible; ip-collector/1.0)"
@@ -124,6 +124,7 @@ def save_ips(ips: set, base_filename: str, chunk_size: int = 130000):
 
 def save_level_files(ip_sources: dict):
     files = {
+        1: open("black-list-level1.txt", "w", encoding="utf-8"),
         2: open("black-list-level2.txt", "w", encoding="utf-8"),
         3: open("black-list-level3.txt", "w", encoding="utf-8"),
         4: open("black-list-level4.txt", "w", encoding="utf-8"),
@@ -133,7 +134,9 @@ def save_level_files(ip_sources: dict):
     try:
         for ip, sources in sorted(ip_sources.items()):
             count = len(sources)
-            if count == 2:
+            if count == 1:
+                files[1].write(f"{ip}\n")                
+            elif count == 2:
                 files[2].write(f"{ip}\n")
             elif count == 3:
                 files[3].write(f"{ip}\n")
@@ -155,6 +158,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
