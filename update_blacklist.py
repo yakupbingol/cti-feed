@@ -24,6 +24,8 @@ URLS = [
     "https://raw.githubusercontent.com/stamparm/ipsum/master/levels/6.txt",
     "https://raw.githubusercontent.com/stamparm/ipsum/master/levels/7.txt",
     "https://raw.githubusercontent.com/stamparm/ipsum/master/levels/8.txt",
+    "https://raw.githubusercontent.com/securewanltd/cti-feed/refs/heads/main/siem-black-list.txt",
+    "https://raw.githubusercontent.com/borestad/blocklist-abuseipdb/refs/heads/main/abuseipdb-s100-30d.ipv4"
     "https://lists.blocklist.de/lists/all.txt",
     "https://cinsscore.com/list/ci-badguys.txt",
     "https://www.spamhaus.org/drop/drop.txt",
@@ -31,8 +33,23 @@ URLS = [
     "https://feodotracker.abuse.ch/downloads/ipblocklist.txt",
     "https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.txt",
     "https://list.rtbh.com.tr/output.txt",
-    "https://raw.githubusercontent.com/securewanltd/cti-feed/refs/heads/main/siem-black-list.txt",
-    "https://raw.githubusercontent.com/borestad/blocklist-abuseipdb/refs/heads/main/abuseipdb-s100-30d.ipv4",
+    "https://raw.githubusercontent.com/romainmarcoux/malicious-outgoing-ip/refs/heads/main/sources/abuse.ch-aa.txt",
+    "https://raw.githubusercontent.com/romainmarcoux/malicious-outgoing-ip/refs/heads/main/sources/alienvault-precisionsec-aa.txt",
+    "https://raw.githubusercontent.com/romainmarcoux/malicious-outgoing-ip/refs/heads/main/sources/cert.ssi.gouv.fr-aa.txt",
+    "https://raw.githubusercontent.com/romainmarcoux/malicious-outgoing-ip/refs/heads/main/sources/cybercrime-tracker.net-aa.txt",
+    "https://raw.githubusercontent.com/romainmarcoux/malicious-outgoing-ip/refs/heads/main/sources/cybercure.ai-aa.txt",
+    "https://raw.githubusercontent.com/romainmarcoux/malicious-outgoing-ip/refs/heads/main/sources/digitalside.it-aa.txt",
+    "https://raw.githubusercontent.com/romainmarcoux/malicious-outgoing-ip/refs/heads/main/sources/drb-ra-aa.txt",
+    "https://raw.githubusercontent.com/romainmarcoux/malicious-outgoing-ip/refs/heads/main/sources/inquest.net-aa.txt",
+    "https://raw.githubusercontent.com/romainmarcoux/malicious-outgoing-ip/refs/heads/main/sources/malwarebytes-aa.txt",
+    "https://raw.githubusercontent.com/romainmarcoux/malicious-outgoing-ip/refs/heads/main/sources/mattyroberts.io-aa.txt",
+    "https://raw.githubusercontent.com/romainmarcoux/malicious-outgoing-ip/refs/heads/main/sources/sicehice-aa.txt",
+    "https://raw.githubusercontent.com/romainmarcoux/malicious-outgoing-ip/refs/heads/main/sources/sslbl.abuse.ch-aa.txt",
+    "https://raw.githubusercontent.com/romainmarcoux/malicious-outgoing-ip/refs/heads/main/sources/threatview.io-aa.txt",
+    "https://raw.githubusercontent.com/romainmarcoux/malicious-outgoing-ip/refs/heads/main/sources/urlabuse.com-aa.txt",
+    "https://raw.githubusercontent.com/romainmarcoux/malicious-outgoing-ip/refs/heads/main/sources/urlhaus.abuse.ch-aa.txt",
+    "https://raw.githubusercontent.com/romainmarcoux/malicious-outgoing-ip/refs/heads/main/sources/ut1-fr-aa.txt",
+    "https://raw.githubusercontent.com/romainmarcoux/malicious-outgoing-ip/refs/heads/main/sources/viriback.com-aa.txt",
 ]
 
 OUTPUT_FILE = "black-list.txt"
@@ -138,5 +155,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
