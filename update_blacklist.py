@@ -52,7 +52,7 @@ URLS = [
     "https://raw.githubusercontent.com/romainmarcoux/malicious-outgoing-ip/refs/heads/main/sources/viriback.com-aa.txt",
 ]
 
-OUTPUT_FILE = "black-list.txt"
+OUTPUT_FILE = "black-list-level1.txt"
 REQUEST_TIMEOUT = 20
 SLEEP_BETWEEN = 0.5
 USER_AGENT = "Mozilla/5.0 (compatible; ip-collector/1.0)"
@@ -155,6 +155,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
