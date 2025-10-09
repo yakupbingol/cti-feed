@@ -19,10 +19,10 @@ Usage : Security Fabric --> External connectors --> Create New --> Threat Feeds 
 Usage - 2 : Security Fabric --> External connectors --> Create New --> Threat Feeds --> IP Address --> URI of external resource: **https://raw.githubusercontent.com/securewanltd/cti-feed/refs/heads/main/black-list-part2.txt**
 
 ### ONLY PALO ALTO
-Usage : Objects --> External Dynamic Lists --> Add --> Type: IP List --> Source: **https://raw.githubusercontent.com/securewanltd/cti-feed/refs/heads/main/black-list.txt**
+Usage : Objects --> External Dynamic Lists --> Add --> Type: IP List --> Source: **https://raw.githubusercontent.com/securewanltd/cti-feed/refs/heads/main/black-list-level1.txt**
 
 ### OTHER FIREWALL
-Usage : Firewall --> Source Adress List : **https://raw.githubusercontent.com/securewanltd/cti-feed/refs/heads/main/black-list.txt**
+Usage : Firewall --> Source Adress List : **https://raw.githubusercontent.com/securewanltd/cti-feed/refs/heads/main/black-list-level1.txt**
 
 
 ## **Note:**
