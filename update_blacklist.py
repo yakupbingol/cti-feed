@@ -16,7 +16,6 @@ from collections import defaultdict
 
 # ---------- AYARLAR ----------
 URLS = [
-    "https://raw.githubusercontent.com/stamparm/ipsum/master/levels/1.txt",
     "https://raw.githubusercontent.com/stamparm/ipsum/master/levels/2.txt",
     "https://raw.githubusercontent.com/stamparm/ipsum/master/levels/3.txt",
     "https://raw.githubusercontent.com/stamparm/ipsum/master/levels/4.txt",
@@ -175,6 +174,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
