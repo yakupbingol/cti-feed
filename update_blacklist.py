@@ -93,7 +93,9 @@ URLS = [
     "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/XMRig%20Monero%20Cryptominer%20IPs.txt",
     "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/XtremeRAT%20Trojan%20IPs.txt",
     "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/all.txt",
-    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/njRAT%20Trojan%20IPs.txt"
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/njRAT%20Trojan%20IPs.txt",
+    "https://github.com/ThreatMon/ThreatMon-Reports-IOC/blob/main/Anonymous-Sudan/IOC.txt",
+    "https://raw.githubusercontent.com/ThreatMon/ThreatMon-Reports-IOC/refs/heads/main/Arkei-Stealer-Analysis/IOC.txt",
     
     
     
@@ -224,6 +226,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
