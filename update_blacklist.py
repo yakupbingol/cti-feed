@@ -96,6 +96,25 @@ URLS = [
     "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/njRAT%20Trojan%20IPs.txt",
     "https://github.com/ThreatMon/ThreatMon-Reports-IOC/blob/main/Anonymous-Sudan/IOC.txt",
     "https://raw.githubusercontent.com/ThreatMon/ThreatMon-Reports-IOC/refs/heads/main/Arkei-Stealer-Analysis/IOC.txt",
+    "https://raw.githubusercontent.com/spydisec/spydithreatintel/refs/heads/main/iplist/filtered_malicious_iplist.txt",
+    "https://raw.githubusercontent.com/spydisec/spydithreatintel/refs/heads/main/iplist/ip_ioc_maltrail_feed_new.txt",
+    "https://raw.githubusercontent.com/spydisec/spydithreatintel/refs/heads/main/iplist/master_malicious_iplist.txt",
+    "https://raw.githubusercontent.com/spydisec/spydithreatintel/refs/heads/main/iplist/referenced_malicious_ips.txt",
+    "https://raw.githubusercontent.com/spydisec/spydithreatintel/refs/heads/main/iplist/threatfoxallips.txt",
+    "https://raw.githubusercontent.com/spydisec/spydithreatintel/refs/heads/main/iplist/threatfoxhighconfidenceips.txt",
+    "https://raw.githubusercontent.com/spydisec/spydithreatintel/refs/heads/main/iplist/C2IPs/master_c2_iplist.txt",
+    "https://raw.githubusercontent.com/spydisec/spydithreatintel/refs/heads/main/iplist/full/permanent_confidence_blocklist.txt",
+    "https://raw.githubusercontent.com/spydisec/spydithreatintel/refs/heads/main/iplist/full/research_full_blocklist.txt",
+    "https://raw.githubusercontent.com/spydisec/spydithreatintel/refs/heads/main/iplist/high/high_confidence_limited.txt",
+    "https://raw.githubusercontent.com/spydisec/spydithreatintel/refs/heads/main/iplist/high/high_confidence_unlimited.txt",
+    "https://raw.githubusercontent.com/spydisec/spydithreatintel/refs/heads/main/iplist/honeypot/osinthoneypotfeed.txt",
+    "https://raw.githubusercontent.com/spydisec/spydithreatintel/refs/heads/main/iplist/low/low_confidence.txt",
+    "https://raw.githubusercontent.com/spydisec/spydithreatintel/refs/heads/main/iplist/medium/medium_confidence_limited.txt",
+    "https://raw.githubusercontent.com/spydisec/spydithreatintel/refs/heads/main/iplist/medium/medium_confidence_unlimited.txt",
+    "https://raw.githubusercontent.com/ThreatMon/ThreatMon-Reports-IOC/refs/heads/main/Pulsar%20RAT/IOCs/ipv4.txt",
+    
+    
+    
     
     
     
@@ -226,6 +245,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
