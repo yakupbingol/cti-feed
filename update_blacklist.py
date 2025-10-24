@@ -49,6 +49,56 @@ URLS = [
     "https://raw.githubusercontent.com/romainmarcoux/malicious-outgoing-ip/refs/heads/main/sources/urlhaus.abuse.ch-aa.txt",
     "https://raw.githubusercontent.com/romainmarcoux/malicious-outgoing-ip/refs/heads/main/sources/ut1-fr-aa.txt",
     "https://raw.githubusercontent.com/romainmarcoux/malicious-outgoing-ip/refs/heads/main/sources/viriback.com-aa.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/7777%20Botnet%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/Ares%20RAT%20C2%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/AsyncRAT%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/BitRAT%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/Brute%20Ratel%20C4%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/BurpSuite%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/Caldera%20C2%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/Cobalt%20Strike%20C2%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/Covenant%20C2%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/DarkComet%20Trojan%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/DcRAT%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/Deimos%20C2%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/Gh0st%20RAT%20Trojan%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/GoPhish%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/Hak5%20Cloud%20C2%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/Havoc%20C2%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/Hookbot%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/Metasploit%20Framework%20C2%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/MobSF%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/Mozi%20Botnet%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/Mythic%20C2%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/NanoCore%20RAT%20Trojan%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/NetBus%20Trojan%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/NimPlant%20C2%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/Orcus%20RAT%20Trojan%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/Oyster%20C2%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/PANDA%20C2%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/Quasar%20RAT%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/Pantegana%20C2%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/RedGuard%20C2%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/Remcos%20RAT%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/Sectop%20RAT%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/ShadowPad%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/Sliver%20C2%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/SpiceRAT%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/SpyAgent%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/Supershell%20C2%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/Unam%20Web%20Panel%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/Villain%20C2%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/Viper%20C2%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/Vshell%20C2%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/XMRig%20Monero%20Cryptominer%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/XtremeRAT%20Trojan%20IPs.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/all.txt",
+    "https://raw.githubusercontent.com/montysecurity/C2-Tracker/refs/heads/main/data/njRAT%20Trojan%20IPs.txt"
+    
+    
+    
+    
+    
 ]
 
 OUTPUT_FILE = "black-list.txt"
@@ -174,6 +224,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
